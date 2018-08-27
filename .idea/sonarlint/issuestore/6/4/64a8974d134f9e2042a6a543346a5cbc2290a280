@@ -1,0 +1,4 @@
+
+\squid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(Œ±žì
+jsquid:S00116"ORename this field "GSON" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢¢—Óüÿÿÿÿ
+›squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(å»×ªøÿÿÿÿ

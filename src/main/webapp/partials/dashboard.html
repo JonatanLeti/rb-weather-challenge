@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand">
+                <a href="#">
+                    <a href="https://www.yahoo.com/?ilc=401" target="_blank"> <img class="brand" src="https://poweredby.yahoo.com/purple.png" width="134" height="29"/> </a>
+                </a>
+            </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <form class="navbar-form navbar-right" role="search" action="javascript:getWeather()">
+                <div class="form-group">
+                    <input id="city" type="text" class="form-control" placeholder="Enter City" required>
+                </div>
+                <button class="btn btn-default" ng-click="dc.getWeather()">Get Forecast</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<div class="container" hidden>
+    <div class="jumbotron">
+    </div>
+
+    <div id="forecast" class="row">
+    </div>
+</div>
+</body>
+</html>

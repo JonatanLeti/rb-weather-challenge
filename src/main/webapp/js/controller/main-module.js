@@ -1,0 +1,1 @@
+var wApp = angular.module('WeatherChallengeApp', ["ngRoute", "ngSanitize"]);

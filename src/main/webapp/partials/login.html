@@ -1,0 +1,43 @@
+<div id="wrapper" ng-app="WeatherChallengeApp" ng-controller="LoginController as lc">
+    <div id="wrappertop"></div>
+
+    <div id="wrappermiddle">
+
+        <h2>Login</h2>
+
+        <div id="username_input">
+            <div id="username_inputleft"></div>
+            <div id="username_inputmiddle">
+                <form>
+                    <input type="text" name="user_name" id="user_id" onclick="this.value = ''" ng-model="lc.form.user">
+                    <img id="url_user" src="./img/mailicon.png" alt="">
+                </form>
+            </div>
+
+            <div id="username_inputright"></div>
+        </div>
+
+        <div id="password_input">
+            <div id="password_inputleft"></div>
+            <div id="password_inputmiddle">
+                <form>
+                    <input type="password" name="pass_name" id="pass_id" onclick="this.value = ''" ng-model="lc.form.pass">
+                    <img id="url_password" src="./img/passicon.png" alt="">
+                </form>
+            </div>
+
+            <div id="password_inputright"></div>
+        </div>
+
+        <div id="submit">
+            <form>
+                <input type="image" src="./img/submit_hover.png" id="submit1" value="Sign In" ng-click="lc.validateUser()">
+                <input type="image" src="./img/submit.png" id="submit2" value="Sign In" ng-click="lc.validateUser()">
+            </form>
+        </div>
+
+    </div>
+
+    <div id="wrapperbottom"></div>
+
+</div>

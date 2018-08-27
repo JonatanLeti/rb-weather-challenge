@@ -1,0 +1,6 @@
+
+jsquid:S00112%"FDefine and throw a dedicated exception instead of using a generic one.(ãäé¹üÿÿÿÿ8Ã´²‘×,
+jsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(€¸ÅÌýÿÿÿÿ8Ã´²‘×,
+Ÿsquid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ïÂ§ª8Ã´²‘×,
+ssquid:S00116"ORename this field "GSON" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢¢—Óüÿÿÿÿ8Ã´²‘×,
+Ksquid:S1068"(Remove this unused "GSON" private field.(¢¢—Óüÿÿÿÿ8Ã´²‘×,
